@@ -6,7 +6,7 @@
 /*   By: ismherna <ismherna@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/18 17:40:06 by ismherna          #+#    #+#             */
-/*   Updated: 2025/03/20 23:30:39 by ismherna         ###   ########.fr       */
+/*   Updated: 2026/11/11 16:11:17 by ismherna         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -78,18 +78,5 @@ class MutantStack : public std::stack<T>{
 			return this->c.end();
 		}
 };
-
-/*================================FUNCTIONS=================================*/
-
-void test_empty_stack();
-void test_add_elements();
-void test_add_elements_size();
-void test_pop_element();
-void test_top_stack();
-void test_iterator_stack();
-void test_copy_stack();
-void test_build_within_type();
-void test_copy_constructor();
-void test_assignment_op();
 
 #endif

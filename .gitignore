@@ -1,0 +1,19 @@
+# Compiled objects and libraries
+*.o
+*.a
+*.so
+
+# Build executables
+/ex00/easyfind
+/ex01/span
+/ex02/mutantStack
+*.out
+a.out
+
+# Local and crash-generated files
+.DS_Store
+*.swp
+*~
+core
+core.*
+vgcore.*

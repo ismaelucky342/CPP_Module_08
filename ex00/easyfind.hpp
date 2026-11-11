@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   easyfind.hpp                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ismherna <ismherna@student.42.fr>          +#+  +:+       +#+        */
+/*   By: ismherna <ismherna@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/11 15:06:58 by ismherna          #+#    #+#             */
-/*   Updated: 2024/12/18 19:18:57 by ismherna         ###   ########.fr       */
+/*   Updated: 2026/11/11 16:11:17 by ismherna         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,8 +51,5 @@
 
 template <typename T>
 int easyfind(T &conteiner, int target);
-void test_find_should_return_target();
-void test_find_should_return_exception();
-void test_find_then_src_null_should_return_exception();
 
 #endif

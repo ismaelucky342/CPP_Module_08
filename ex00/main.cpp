@@ -6,12 +6,15 @@
 /*   By: ismherna <ismherna@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/11 15:06:23 by ismherna          #+#    #+#             */
-/*   Updated: 2025/03/20 23:27:46 by ismherna         ###   ########.fr       */
+/*   Updated: 2026/11/11 16:11:17 by ismherna         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "easyfind.hpp"
 
+static void test_find_should_return_target();
+static void test_find_should_return_exception();
+static void test_find_then_src_null_should_return_exception();
 
 int main () {
 	test_find_should_return_target();

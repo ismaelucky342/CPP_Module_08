@@ -6,11 +6,22 @@
 /*   By: ismherna <ismherna@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/20 23:15:51 by ismherna          #+#    #+#             */
-/*   Updated: 2025/03/20 23:28:12 by ismherna         ###   ########.fr       */
+/*   Updated: 2026/11/11 16:11:17 by ismherna         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "MutantStack.hpp"
+
+static void test_empty_stack();
+static void test_add_elements();
+static void test_add_elements_size();
+static void test_pop_element();
+static void test_top_stack();
+static void test_iterator_stack();
+static void test_copy_stack();
+static void test_build_within_type();
+static void test_copy_constructor();
+static void test_assignment_op();
 
 int main() {
     test_empty_stack();
